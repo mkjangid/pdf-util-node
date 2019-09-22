@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "MANISH JANGID",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "multer": "^1.4.2",
