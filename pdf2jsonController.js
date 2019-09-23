@@ -6,9 +6,14 @@ const fs = require('fs');
 const request = require('request');
 
 const multer  = require('multer')
-const upload = multer({ dest: './files/' })
+const upload = multer({ dest: './files/'
+    ,onError : function(err, next) {
+      next(err);
+    } 
+});
 
 router.post('/', upload.single('pdfFile'), loadPDFAndTransform);
+
 module.exports = router;
 
 function loadPDFAndTransform(req, res, next) {
