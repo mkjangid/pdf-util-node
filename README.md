@@ -2,7 +2,7 @@
 
 STEPS TO GET THIS WORKING (After navigating to the root directory):
 
-1. Install pm2 globally on system (droplet server) from npm 
+1. Install pm2 globally on system (in this case your droplet server) from npm 
     
     $ npm i pm2 -g
     
