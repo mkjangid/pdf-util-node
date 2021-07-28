@@ -1,5 +1,7 @@
 # pdf-util-node
 
+Simple Util to get JSON data from a pdf provided through a pdf url 
+
 STEPS TO GET THIS WORKING (After navigating to the root directory):
 
 1. Install pm2 globally on system (in this case your droplet server) from npm 
